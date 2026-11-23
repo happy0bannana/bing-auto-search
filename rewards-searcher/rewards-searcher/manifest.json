@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Búsquedas Bing",
+  "version": "1.0",
+  "description": "Hace 25 búsquedas básicas en Bing, una cada 7 segundos.",
+  "permissions": ["storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "Auto Búsquedas" }
+}
